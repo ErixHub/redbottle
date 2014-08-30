@@ -1,0 +1,516 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+ul li {
+    font-size:14px;
+    list-style: circle;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*redbottle.solutions Stylesheet*/
+
+html body{
+    background-color:#fff;
+    margin-top:0px;
+    margin-left:10%;
+    margin-right:15%;
+    padding-left: 10px;
+    background-image: repeat;
+}
+html {
+    font-size: 150%;
+}
+html {
+    font-family: sans-serif;
+}
+header {
+    max-width: 100%;
+    margin-top: 0px;
+    background-color: #fff;
+    text-align: center;
+    position: center;
+}
+
+ body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.0;
+    color: #000;
+}
+body nav {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.0;
+    color: #000;
+}
+ul li {
+    font-size:14px;
+}
+p {
+    margin-left:0px;
+    text-align:center;
+}
+ h1 { font-size: 48px;  color:#000;}
+ h2 { font-size: 36px;  color:#000099;} /* Dark Blue */
+ h3 { font-size: 24px;  color:#000;}
+ h4 { font-size: 18px;  color:#fff;}
+ h5 { font-size: 14px;  color:#000;text-align: left;}
+ h6 { font-size: 12px;  color:#000; font-style: italic;};
+ section div {
+    font-size:16px; color:#000099; /*Dark Blue*/
+ }
+a {
+color: #000099; /* text hyperlinks */
+text-decoration: none;
+}
+nav ul {
+    font-size:12px;
+    margin: 0;
+    padding: 0;
+    font-color:#000;
+}
+footer {
+    clear:both;
+    text-align:center;
+    font-size:12px;
+    color:#000099; /* Hosted by */
+    line-height: 1.2;
+    padding: 10px 0;
+}
+footer p {
+    text-align: center;
+}
+footer ul li {
+    display:inline;
+}
+footer h6{
+    color:#000099;
+    text-align:center; /* Footer "Webmaster link" */
+}
+footer p {
+    font-size: 10px; color:#000099; /* Copyright Statement */
+}
+footer ul li {
+    display:inline-block;
+    max-height:20px;
+}
+footer img {
+    float:left;
+    margin-top: 0px;
+}
+footer, a {
+    text-align: center;
+}
+
+.nav {
+    list-style: none outside none;
+}
+
+/*a {
+    color: blue;
+    text-decoration: none;
+}*/
+* {
+    box-sizing: border-box;
+}
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+section {
+    background-color:rgb(255,255,255);
+    height:relative;
+    width:100%;
+    margin-left: 12%;
+}
+section div {font-size:14px;color:#fff;
+}
+section a {
+    color:blue;
+}
+article p{
+    text-align: left;
+}
+article {
+    width:25%;
+    min-height:2000;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-bottom: 1px;
+    padding-left: 5px;
+    padding-right:10px;
+    text-align:left;
+    display:inline-block;
+    border-style:none;
+    background-color:transparent;
+}
+article .logo {
+    margin-left: 50%;
+}
+article ul li a {
+    color:rgb(2,20,80);
+}
+article ul {
+    list-style-type:square;
+}
+section article img {
+    border-radius: 0px;
+}
+aside {
+    max-width:50%;
+    float:left;
+    margin-top: 0px;
+}
+aside h2 {
+    text-align: left;
+}
+aside ul li {
+    font-size:14px;
+    text-align:left;
+    text-indent: 10px;
+}
+aside img {
+    border-radius: 20px;
+}
+
+aside p {
+    text-align: left;
+}
+
+/*BEGIN Media Queries */
+
+/* Laptops & Desktops */
+@media screen and (min-width:768px){
+    section div p {font-size: 14px;  color:#000;}
+    main img {
+        display:none;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width:767px){
+    section div p {font-size: 10px;  color:#000;}
+    aside ul li {
+    font-size:12px;
+    text-align:left;
+    text-indent: 0%;}
+    aside h2 {
+        font-size: 14px;}
+    aside img {
+        border-radius: 0px;}
+    article img {
+        border-radius: 0px;
+}
+    section article img {
+        border-radius: 0px;
+}
+    iframe {width:200px; height:170px;
+        float:left;
+        padding-right: 15px;
+}
+} 
+
+/* Mobile Phones */
+
+/*END Media Queries */
+
+
+
+
+   
+/*Custom Class Selectors*/
+/* Background gradient for "<body>"*/
+#grad1 {
+    height: relative;
+    width:relative;
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1), rgba(255,255,255,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(0,0,0,1), rgba(255,255,255,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(0,0,0,1) rgba(,255,255,255,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(255,255,255,1)); /* Standard syntax (must be last) */
+}
+/* Background gradient for "<footer>"*/
+#grad2 {
+    height: relative;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1), rgba(255,255,255,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,255,255,1) rgba(255,255,255,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,1)); /* Standard syntax ALL browsers, (must be last) */
+    border-radius: 0px;
+    /*box-shadow: 15px 15px 50px #333;*/
+}
+.statement{
+    margin-top:1px;
+    font-size: 18px;
+    font-style: italic;
+}
+.art1 {
+    margin-top:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    padding-right:1px;
+    width:100%;
+    text-indent: 5px;
+    max-height: relative;
+    background-color:rgb(255,255,255);
+    color:#000;
+    border-style:none;
+    border-radius: 10px;
+}
+.art1 img:hover {
+    opacity:.7;
+}
+
+.art2 {
+    /*margin-top:10px;
+    padding-top: 5px;*/
+    padding-bottom: 5px;
+    padding-left: 1px;
+    padding-right:1px;
+    width:100%;
+    /*text-indent: 5px;*/
+    max-height: relative;
+    background-color:rgb(255,255,255);
+    color:black;
+    /*box-shadow: 10px 10px 10px #000;*/
+    border-style:none;
+    border-radius: 10px;
+}
+/*.footimg {
+    margin-top: -10px;
+}*/
+
+/*Bootstrap Navigation Modifications*/
+/* Orignial Nav-Bar Brand settings
+
+.navbar-default .navbar-brand {
+    color:#000;
+}
+.navbar-brand {
+float: left;
+padding: 5px;
+font-size: 18px;
+color:#000;
+line-height: 1px;
+height: 10px;
+}*/
+
+.navbar-default .navbar-brand {
+    color: transparent;
+}
+
+.navbar-brand {
+float: left;
+padding: 0px;
+font-size: 1px;
+color:#000;
+line-height: 1px;
+height: 0px;
+width:0px;
+}
+
+.navbar-default .navbar-nav ul li a {
+font-size: 18px; color:#000;
+}
+.navbar {
+    height: relative;
+    background-color: #fff;
+    /*background: -webkit-linear-gradient(left, rgba(0,200,200,1), rgba(0,200,240,.2)); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(right, rgba(0,200,200,1), rgba(0,200,240,.2)); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(right, rgba(0,200,200,1) rgba(0,200,240,.2)); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(to right, rgba(0,200,200,1), rgba(0,200,240,.2)); /* Standard syntax (must be last) */
+    border-radius: 0;
+    background-repeat:no-repeat;
+    height:auto;
+    position: relative;
+    min-height: 10px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color:#000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #fff;
+}
+.navbar-toggle{
+    border-radius:3;
+    border-width:0;
+    background-color:red; /*"Hamburger background color default*/
+    transition:all 1000ms ease-out;
+}
+.navbar-nav>li>a {
+padding-top: 10px;
+padding-bottom: 10px;
+line-height: 5px;
+background-color: #fff; /*Background color of expanded nav bar on hover*/
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: #fff; /*Nav Bar "Hamburger color*/
+}
+.navbar-default .navbar-toggle:hover {
+
+    background: -webkit-linear-gradient(left, rgba(255,0,0,1), rgba(255,0,0,.5)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255,0,0,1), rgba(255,0,0,.5)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,0,0,1) rgba(255,0,0,.5)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,.5)); /* Standard syntax (must be last) */
+}
+.navbar-collapse {
+max-height: 250px; /*Room allowed for dropdown menu*/
+overflow-x: visible;
+padding-right: 15px;
+padding-left: 15px;
+border-top: 0px solid transparent;
+background-color: transparent;
+box-shadow: inset 0 1px 0 rgba(255,255,255,1); /* Ruled line above menu*/
+-webkit-overflow-scrolling: touch;
+-moz-overflow-scrolling:touch;
+-o-overflow-scrolling:touch;
+overflow-scrolling:touch;
+}
+.navbar-nav>li>a {
+text-shadow: 0 0px 0 rgba(255,255,255,.25);
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+color:#3399ff; /* Dropdown highlight text color */
+background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+color: #660000; /*nav Bar text color*/
+font-size: 24px;/*nav Bar text size*/
+}
+.nav {
+    list-style: none outside none;
+}
+/*END Bootstrap Navigation Modifications*/
+
+
+.Content {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  /*font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;*/
+  
+  font-size: medium;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 120%;
+  margin-left: 5%;
+}
+.Content img {
+    display:inline-block;
+}
+.Content .LeadIn {
+  font-weight: bold;
+  font-size: large;
+  font-variant: small-caps;
+}
+
+.Content h2 {
+  color: #24486C;
+  margin-bottom: 2px;
+  font-size: medium;
+}
+
+.Content p {
+  margin-top: 5px;
+}
+
+
+.FloatFigure {
+  float: left;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+} 
+
+.FloatFigure figcaption {
+  max-width: 75%;
+  font-size: small;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+.logo {
+    margin-left: 25%;
+}
+
+/* Foundation Elements */
+
+.accordion {
+  margin-bottom: 0; }
+  .accordion:before, .accordion:after {
+    content: " ";
+    display: table; }
+  .accordion:after {
+    clear: both; }
+  .accordion .accordion-navigation, .accordion dd {
+    display: block;
+    margin-bottom: 0 !important; }
+  .accordion .accordion-navigation.active > a, .accordion dd.active > a {
+      background: #fff; } /* Tab Background Default */
+  .accordion .accordion-navigation > a, .accordion dd > a {
+      background: #fff; /* Accordion Background  Default */
+      color: #000; /* Accordion Text */
+      padding: 10px;
+      display: block;
+      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 12px; }
+      .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+        background: red; } /* Background on Hover */
+    .accordion .accordion-navigation > .content, .accordion dd > .content {
+      display: none;
+      padding: 10px; }
+      .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+        display: block;
+        background: #efefef; } /* Content Background */
